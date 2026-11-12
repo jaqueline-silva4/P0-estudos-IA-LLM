@@ -1,0 +1,16 @@
+# Configurações do PyCharm
+.idea/
+
+# Ambiente virtual Python
+.venv/
+venv/
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+
+# Arquivos do Windows
+desktop.ini
+
+# Arquivos com informações sensíveis
+.env
