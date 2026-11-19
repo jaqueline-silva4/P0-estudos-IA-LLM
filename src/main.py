@@ -7,6 +7,9 @@ load_dotenv()
 
 API_KEY = os.getenv("GEMINI_API_KEY")
 
+if not APY_KEY:
+    raise ValueError("GEMINI_API_KEY não encontrada.")
+
 client = genai.Client()
 
 solicitacao = input("Digite sua solicitação: ")
